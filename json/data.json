@@ -1,0 +1,25 @@
+var jamesBond =
+[
+    {"title":"Dr. No", "year":1962, "actor":"Connery", "kills":5, "kissed":4, "implicitly":2, "explicitly":1, "slept":3, "enemy":1, "nonhuman":"Tarantula", "technological":""},
+    {"title":"From Russia With Love", "year":1963, "actor":"Connery", "kills":6, "kissed":2, "implicitly":3, "explicitly":1, "slept":4, "enemy":0, "nonhuman":"", "technological":"People hadn't seen a pager before"},
+    {"title":"Goldfinger", "year":1964, "actor":"Connery", "kills":3, "kissed":4, "implicitly":1, "explicitly":1, "slept":2, "enemy":0, "nonhuman":"", "technological":"first onscreen laser"},
+    {"title":"Thunderball", "year":1965, "actor":"Connery", "kills":14, "kissed":3, "implicitly":0, "explicitly":3, "slept":3, "enemy":0, "nonhuman":"", "technological":""},
+    {"title":"You Only Live Twice", "year":1967, "actor":"Connery", "kills":17, "kissed":4, "implicitly":2, "explicitly":0, "slept":2, "enemy":1, "nonhuman":"", "technological":"Car videophone, woah!"},
+    {"title":"On Her Majesty's Secret Service", "year":1969, "actor":"Lazenby", "kills":6, "kissed":3, "implicitly":2, "explicitly":1, "slept":3, "enemy":1, "nonhuman":"", "technological":""},
+    {"title":"Diamonds Are Forever", "year":1971, "actor":"Connery", "kills":6, "kissed":1, "implicitly":1, "explicitly":0, "slept":1, "enemy":2, "nonhuman":"", "technological":""},
+    {"title":"Live and Let Die", "year":1973, "actor":"Moore", "kills":4, "kissed":2, "implicitly":0, "explicitly":3, "slept":3, "enemy":0, "nonhuman":"Snake", "technological":""},
+    {"title":"The Man with the Golden Gun", "year":1974, "actor":"Moore", "kills":1, "kissed":3, "implicitly":2, "explicitly":0, "slept":2, "enemy":0, "nonhuman":"", "technological":""},
+    {"title":"The Spy Who Loved Me", "year":1977, "actor":"Moore", "kills":11, "kissed":3, "implicitly":0, "explicitly":2, "slept":2, "enemy":0, "nonhuman":"", "technological":""},
+    {"title":"Moonraker", "year":1979, "actor":"Moore", "kills":12, "kissed":3, "implicitly":1, "explicitly":2, "slept":3, "enemy":0, "nonhuman":"Boa Constrictor", "technological":""},
+    {"title":"For Your Eyes Only", "year":1981, "actor":"Moore", "kills":8, "kissed":3, "implicitly":1, "explicitly":1, "slept":2, "enemy":1, "nonhuman":"Man Eaten by Shark, ATAC?", "technological":""},
+    {"title":"Octopussy", "year":1983, "actor":"Moore", "kills":12, "kissed":2, "implicitly":0, "explicitly":2, "slept":2, "enemy":1, "nonhuman":"", "technological":"Jetpack"},
+    {"title":"A View to Kill", "year":1985, "actor":"Moore", "kills":3, "kissed":4, "implicitly":3, "explicitly":1, "slept":4, "enemy":3, "nonhuman":"", "technological":""},
+    {"title":"The Living Daylights", "year":1987, "actor":"Dalton", "kills":4, "kissed":1, "implicitly":2, "explicitly":0, "slept":2, "enemy":0, "nonhuman":"General Pushkin?", "technological":"Night-vision goggles"},
+    {"title":"Licence to Kill", "year":1989, "actor":"Dalton", "kills":7, "kissed":3, "implicitly":2, "explicitly":0, "slept":2, "enemy":0, "nonhuman":"", "technological":""},
+    {"title":"Goldeneye", "year":1995, "actor":"Brosnan", "kills":26, "kissed":3, "implicitly":1, "explicitly":1, "slept":2, "enemy":0, "nonhuman":"", "technological":"Electronic Money Transfer? Nice!"},
+    {"title":"Tomorrow Never Dies", "year":1997, "actor":"Brosnan", "kills":17, "kissed":3, "implicitly":1, "explicitly":1, "slept":2, "enemy":1, "nonhuman":"Satellite", "technological":"Largest Product Placement Deal in history"},
+    {"title":"The World is Not Enough", "year":1999, "actor":"Brosnan", "kills":17, "kissed":3, "implicitly":1, "explicitly":2, "slept":3, "enemy":1, "nonhuman":"", "technological":""},
+    {"title":"Die Another Day", "year":2002, "actor":"Brosnan", "kills":16, "kissed":3, "implicitly":0, "explicitly":2, "slept":2, "enemy":1, "nonhuman":"Col. Moon", "technological":"Sending picture texts, I want that!"},
+    {"title":"Casino Royale", "year":2006, "actor":"Craig", "kills":10, "kissed":2, "implicitly":0, "explicitly":1, "slept":1, "enemy":1, "nonhuman":"", "technological":""},
+    {"title":"Quantum of Solace", "year":2008, "actor":"Craig", "kills":15, "kissed":2, "implicitly":0, "explicitly":1, "slept":1, "enemy":0, "nonhuman":"", "technological":""}
+]

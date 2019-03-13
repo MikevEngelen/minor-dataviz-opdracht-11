@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="Description">
+    <meta name="author" content="Mike van Engelen">
+
+    <title>D3</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+    </header>
+    
+    <main>
+        <section class="svg-section">
+            <svg class="rocket" width="400" height="900" style="fill:rgb(255,0,0);stroke:rgb(0,0,0);stroke-width:3px;">
+                <!-- Wings -->
+                <path d="M200 400 L0 700 L400 700 Z" />
+                <!-- Body -->
+                <rect x="100" y="200" width="200" height="500" style="fill:rgb(220,220,220)"/>
+                <!-- Tip -->
+                <path d="M100 200 L300 200 L200 0 Z" />
+                <!-- Windows -->
+                <circle cx="200" cy="300" r="50" fill="rgb(200,200,255)" />
+                <circle cx="200" cy="450" r="50" fill="rgb(200,200,255)" />
+                <!-- Flames -->
+                <path d="M100 700 L150 700 L130 780 Z" fill="rgba(255, 203, 5, 0.8)" stroke="none" class="flame" />
+                <path d="M180 700 L120 700 L180 830 Z" fill="rgba(245, 171, 53, 0.8)" stroke="none" class="flame" />
+                <path d="M300 700 L210 700 L260 790 Z" fill="rgba(248, 148, 6, 0.8)" stroke="none" class="flame" />
+                <path d="M240 700 L160 700 L210 860 Z" fill="rgba(249, 180, 45, 0.8)" stroke="none" class="flame" />
+                <path d="M220 700 L270 700 L240 820 Z" fill="rgba(230, 126, 34, 0.8)" stroke="none" class="flame" />
+            </svg>
+        </section>
+        <section class="chart-section">
+            <div class="chart-wrapper">
+                <ul>
+                    <li>
+                        <h3>Foo</h3>
+                        <span data-value="50"></span>
+                    </li>
+                    <li>
+                        <h3>Bar</h3>
+                        <span data-value="80"></span>
+                    </li>
+                    <li>
+                        <h3>Lorem</h3>
+                        <span data-value="71"></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="face-section">
+            <div class="face-wrapper">
+                <div id="face"></div>
+                <div id="eye-left"></div>
+                <div id="eye-right"></div>
+                <div id="nose"></div>
+                <div id="mouth"></div>
+            </div>
+            <h1>
+                Fear me, for I am thanos!
+            </h1>
+        </section>
+        <section class="james_bond-section">
+            <svg width="800" height="850" class="graph" viewBox='0 0 800 850' xmlns='http://www.w3.org/2000/svg'>
+                <line x1="50" y1="50" x2="800" y2="50" style="stroke:rgb(0,0,0);stroke-width:2" />
+                <line x1="50" y1="50" x2="50" y2="800" style="stroke:rgb(0,0,0);stroke-width:2" />
+                <line x1="50" y1="800" x2="800" y2="800" style="stroke:rgb(0,0,0);stroke-width:2" />
+                <text x="25" y="790" dominant-baseline="central" transform="rotate(-90, 25, 790)">
+                    Kills (1 - 26)
+                </text>
+                <text x="60" y="825" dominant-baseline="central">
+                    Year (1962 - 2008)
+                </text>
+                <text x="60" y="25" dominant-baseline="central">
+                    Percentage explicit slept with out of total slept with (0% - 100%)
+                </text>
+            </svg>
+        </section>
+    </main>
+    
+    <footer>
+    </footer>
+    
+</body>
+
+<footer>
+    <script src="json/data.json"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</footer>
+
+</html>
